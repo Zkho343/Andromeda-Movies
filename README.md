@@ -1,18 +1,18 @@
-#Assignment 2
+##Andromeda-Movies##
 #### **To install it**
-cd finals
+cd Andromeda-Movies
 
-$ C:\finals> py -3 -m venv venv
+$ C:\Andromeda-Movies> py -3 -m venv venv
 
-$ C:\finals> venv\Scripts\activate
+$ C:\Andromeda-Movies> venv\Scripts\activate
 
-$ C:\finals> pip install -r requirements.txt
+$ C:\Andromeda-Movies> pip install -r requirements.txt
 
 #### To run it 
-$ C:\finals>flask run
+$ C:\Andromeda-Movies>flask run
 
 #### To test it 
-$ c:\finals>python -m pytest
+$ c\Andromeda-Movies>python -m pytest
 
 
 
