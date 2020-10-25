@@ -1,0 +1,10 @@
+
+    <div id="aside-btns">
+        <a id="movie-home-btn" class="aside-btn" href="{{ url_for('home_bp.home') }}">This is home page</a>
+        <a id="movie-list-btn" class="aside-btn" href="{{ url_for('movie_bp.movie') }}">All movies(Please press here)</a>
+
+        <a id="movie-register-btn" class="aside-btn" href="{{ url_for('auth_bp.register') }}">Please Sign up here</a>
+        <a id="movie-login-btn" class="aside-btn" href="{{ url_for('auth_bp.login') }}">Please Sign in here</a>
+
+        <a id="movie-logout-btn" class="aside-btn" href="{{ url_for('auth_bp.logout') }}">Please logout here</a>
+    </div>

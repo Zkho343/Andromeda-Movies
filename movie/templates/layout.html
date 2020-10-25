@@ -1,0 +1,29 @@
+<html>
+<!DOCTYPE html>
+
+    <head>
+        <title>Andromeda Movies</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/m2.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styling.css') }}">
+
+    </head>
+
+<body bgcolor="orange">
+    <header>
+
+    <div id="body">
+    {% include 'side_bar.html' %}
+    <div id="content">
+            {% include 'headers.html' %}
+
+            <div id="container">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+        </div>
+    </div>
+
+    </header>
+</body>
+</html>
